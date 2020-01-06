@@ -2,38 +2,45 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="assets/contact.css">
+        <title>My Portfolio:Contact</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
     </head>
-    <body>
-    <header>Andrew Reyes</header>
-        <button class="aboutb">About</button>
-        <button class="portfoliob">Portfolio</button>
-        <button class="contactb">Contact</button>
-        <br>
-        <section>
-        <h2>Contact</h2>
-        <br>
-        <form>
-            Name:<br>
-            <input type="text" name="firstname" placeholder="Name">
-            <br>
-            <br>
-            Email:<br>
-            <input type="text" email="email" placeholder="Email">
-            <br>
-            <br>
-            Message:<br>
-            <textarea>
-
-            </textarea>
-            <br>
-            <button class="submitb">Submit</button>
-        </form>
-        </section>
-        <br>
-        <footer class="footer"></footer>
+    <body id="background" style="background-image: url(https://www.elsetge.cat/myimg/f/15-152272_forest-wallpaper-high-resolution-for-desktop-wallpaper-dark.jpg);">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" id="Contactbtn" href="contact.html" style="color: red;">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="Indexbtn" href="index.html" style="color: red;">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="PortfoioBtn" href="portfolio.html" style="color: red;">Portfolio</a>
+            </li>
+            
+          </ul>
+        <div class="container">
+            <div class="text-center" id="header" style="color: red; background-color: black;font-family: 'Cinzel', serif ;" >
+                <h1>Andrew Reyes</h1>
+            </div>
+        </div>
+        <div class="container" >
+            <div id="body" style="color: red; text-align: left; box-sizing: content-box; border-style: solid;font-family: 'Cinzel', serif ; font-size: 45px; padding-top: 20px; ">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default" style="color: red;">Email:</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" style="background-color: black;">
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default" style="color: red;">Message</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" style="background-color: black;">
+                  </div>
+                  <button style="background-color: black; color: red;">Submit</button>
+            </div>
+        </div>
         
-
     </body>
 </html>
